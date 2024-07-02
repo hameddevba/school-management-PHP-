@@ -1,0 +1,29 @@
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #488fc7;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+#lien-accueil:hover{
+	background-color: green;
+	color: white;
+
+}
+#lien-liste:hover{
+	background-color: green;
+	color: white;
+}
+#lien-bulletin:hover{
+	background-color: green;
+	color: white;
+}
+nav a{
+	background: white;
+	border-radius: 17px 20px;
+	font-size: 20px;
+	color: blue;
+}
